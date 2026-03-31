@@ -38,6 +38,10 @@
 
 </CHANGES>
 
+<FILE Name="/usr/bin/ugreen-leds">
+<URL>https://raw.githubusercontent.com/sehmee/unraid-ugreenleds-driver/refs/heads/master/source/usr/bin/ugreen-leds</URL>
+</FILE>
+
 <FILE Run="/bin/bash">
 <INLINE>
 kill $(pgrep -f "/usr/bin/ugreen-leds") >/dev/null 2>&amp;1
